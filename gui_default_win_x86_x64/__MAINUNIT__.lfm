@@ -1,0 +1,8 @@
+object __MAINFORM__: T__MAINFORM__
+  Left = 949
+  Height = 240
+  Top = 112
+  Width = 320
+  Caption = 'Form1'
+  LCLVersion = '1.2.6.0'
+end

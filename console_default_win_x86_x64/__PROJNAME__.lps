@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default_win_x86"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="__PROJNAME__.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="__PROJNAME__"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <CustomDefines Count="4">
+      <Define0 Value="x64"/>
+      <Define1 Value="x86"/>
+      <Define2 Value="FPC"/>
+      <Define3 Value="Windows"/>
+    </CustomDefines>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
