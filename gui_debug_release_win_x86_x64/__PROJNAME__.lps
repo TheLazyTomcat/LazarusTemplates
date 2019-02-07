@@ -2,7 +2,7 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="10"/>
+    <Version Value="11"/>
     <BuildModes Active="Debug_win_x86"/>
     <Units Count="2">
       <Unit0>
@@ -22,14 +22,21 @@
         <LoadedDesigner Value="True"/>
       </Unit1>
     </Units>
-    <OtherDefines Count="6">
-      <Define0 Value="FPC"/>
-      <Define1 Value="Windows"/>
-      <Define2 Value="x86"/>
-      <Define3 Value="x64"/>
+    <OtherDefines Count="9">
+      <Define0 Value="x86"/>
+      <Define1 Value="x64"/>
+      <Define2 Value="Windows"/>
+      <Define3 Value="Linux"/>
       <Define4 Value="Debug"/>
       <Define5 Value="Release"/>
+      <Define6 Value="FPC"/>
+      <Define7 Value="Delphi"/>
+      <Define8 Value="PurePascal"/>
     </OtherDefines>
     <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>

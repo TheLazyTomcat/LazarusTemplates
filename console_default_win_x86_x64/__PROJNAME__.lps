@@ -2,32 +2,32 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default_win_x86"/>
     <Units Count="1">
       <Unit0>
         <Filename Value="__PROJNAME__.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="__PROJNAME__"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
     </Units>
-    <CustomDefines Count="4">
-      <Define0 Value="x64"/>
-      <Define1 Value="x86"/>
-      <Define2 Value="FPC"/>
-      <Define3 Value="Windows"/>
-    </CustomDefines>
-    <General>
-      <ActiveWindowIndexAtStart Value="0"/>
-    </General>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <OtherDefines Count="9">
+      <Define0 Value="x86"/>
+      <Define1 Value="x64"/>
+      <Define2 Value="Windows"/>
+      <Define3 Value="Linux"/>
+      <Define4 Value="Debug"/>
+      <Define5 Value="Release"/>
+      <Define6 Value="FPC"/>
+      <Define7 Value="Delphi"/>
+      <Define8 Value="PurePascal"/>
+    </OtherDefines>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
-  <EditorMacros Count="0"/>
 </CONFIG>

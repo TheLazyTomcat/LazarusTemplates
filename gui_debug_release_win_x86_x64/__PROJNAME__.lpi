@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
@@ -14,9 +14,6 @@
     <i18n>
       <EnableI18N LFM="False"/>
     </i18n>
-    <VersionInfo>
-      <StringTable ProductVersion=""/>
-    </VersionInfo>
     <BuildModes Count="4">
       <Item1 Name="Debug_win_x86" Default="True"/>
       <Item2 Name="Release_win_x86">
@@ -50,14 +47,21 @@
             </Options>
           </Linking>
           <Other>
-            <CompilerMessages>
-              <MsgFileName Value=""/>
-            </CompilerMessages>
-            <CustomOptions Value="-dFPC
+            <CustomOptions Value="-dx86
 -dWindows
--dx86
--dRelease"/>
-            <CompilerPath Value="$(CompPath)"/>
+-dRelease
+-dFPC"/>
+            <OtherDefines Count="9">
+              <Define0 Value="x86"/>
+              <Define1 Value="x64"/>
+              <Define2 Value="Windows"/>
+              <Define3 Value="Linux"/>
+              <Define4 Value="Debug"/>
+              <Define5 Value="Release"/>
+              <Define6 Value="FPC"/>
+              <Define7 Value="Delphi"/>
+              <Define8 Value="PurePascal"/>
+            </OtherDefines>
           </Other>
         </CompilerOptions>
       </Item2>
@@ -99,14 +103,21 @@
             </Options>
           </Linking>
           <Other>
-            <CompilerMessages>
-              <MsgFileName Value=""/>
-            </CompilerMessages>
-            <CustomOptions Value="-dFPC
+            <CustomOptions Value="-dx64
 -dWindows
--dx64
--dDebug"/>
-            <CompilerPath Value="$(CompPath)"/>
+-dDebug
+-dFPC"/>
+            <OtherDefines Count="9">
+              <Define0 Value="x86"/>
+              <Define1 Value="x64"/>
+              <Define2 Value="Windows"/>
+              <Define3 Value="Linux"/>
+              <Define4 Value="Debug"/>
+              <Define5 Value="Release"/>
+              <Define6 Value="FPC"/>
+              <Define7 Value="Delphi"/>
+              <Define8 Value="PurePascal"/>
+            </OtherDefines>
           </Other>
         </CompilerOptions>
       </Item3>
@@ -141,14 +152,21 @@
             </Options>
           </Linking>
           <Other>
-            <CompilerMessages>
-              <MsgFileName Value=""/>
-            </CompilerMessages>
-            <CustomOptions Value="-dFPC
+            <CustomOptions Value="-dx64
 -dWindows
--dx64
--dRelease"/>
-            <CompilerPath Value="$(CompPath)"/>
+-dRelease
+-dFPC"/>
+            <OtherDefines Count="9">
+              <Define0 Value="x86"/>
+              <Define1 Value="x64"/>
+              <Define2 Value="Windows"/>
+              <Define3 Value="Linux"/>
+              <Define4 Value="Debug"/>
+              <Define5 Value="Release"/>
+              <Define6 Value="FPC"/>
+              <Define7 Value="Delphi"/>
+              <Define8 Value="PurePascal"/>
+            </OtherDefines>
           </Other>
         </CompilerOptions>
       </Item4>
@@ -157,9 +175,10 @@
       <Version Value="2"/>
     </PublishOptions>
     <RunParams>
-      <local>
-        <FormatVersion Value="1"/>
-      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>
@@ -170,7 +189,6 @@
       <Unit0>
         <Filename Value="__PROJNAME__.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="__PROJNAME__"/>
       </Unit0>
       <Unit1>
         <Filename Value="__MAINUNIT__.pas"/>
@@ -178,7 +196,6 @@
         <ComponentName Value="__MAINFORM__"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="__MAINUNIT__"/>
       </Unit1>
     </Units>
   </ProjectOptions>
@@ -219,14 +236,21 @@
       </Options>
     </Linking>
     <Other>
-      <CompilerMessages>
-        <MsgFileName Value=""/>
-      </CompilerMessages>
-      <CustomOptions Value="-dFPC
+      <CustomOptions Value="-dx86
 -dWindows
--dx86
--dDebug"/>
-      <CompilerPath Value="$(CompPath)"/>
+-dDebug
+-dFPC"/>
+      <OtherDefines Count="9">
+        <Define0 Value="x86"/>
+        <Define1 Value="x64"/>
+        <Define2 Value="Windows"/>
+        <Define3 Value="Linux"/>
+        <Define4 Value="Debug"/>
+        <Define5 Value="Release"/>
+        <Define6 Value="FPC"/>
+        <Define7 Value="Delphi"/>
+        <Define8 Value="PurePascal"/>
+      </OtherDefines>
     </Other>
   </CompilerOptions>
   <Debugging>

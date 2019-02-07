@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <General>
       <Flags>
@@ -17,9 +17,6 @@
     <i18n>
       <EnableI18N LFM="False"/>
     </i18n>
-    <VersionInfo>
-      <StringTable ProductVersion=""/>
-    </VersionInfo>
     <BuildModes Count="2">
       <Item1 Name="Default_win_x86" Default="True"/>
       <Item2 Name="Default_win_x64">
@@ -44,13 +41,20 @@
             </Debugging>
           </Linking>
           <Other>
-            <CompilerMessages>
-              <MsgFileName Value=""/>
-            </CompilerMessages>
             <CustomOptions Value="-dx64
--dFPC
--dWindows"/>
-            <CompilerPath Value="$(CompPath)"/>
+-dWindows
+-dFPC"/>
+            <OtherDefines Count="9">
+              <Define0 Value="x86"/>
+              <Define1 Value="x64"/>
+              <Define2 Value="Windows"/>
+              <Define3 Value="Linux"/>
+              <Define4 Value="Debug"/>
+              <Define5 Value="Release"/>
+              <Define6 Value="FPC"/>
+              <Define7 Value="Delphi"/>
+              <Define8 Value="PurePascal"/>
+            </OtherDefines>
           </Other>
         </CompilerOptions>
       </Item2>
@@ -59,15 +63,15 @@
       <Version Value="2"/>
     </PublishOptions>
     <RunParams>
-      <local>
-        <FormatVersion Value="1"/>
-      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
     </RunParams>
     <Units Count="1">
       <Unit0>
         <Filename Value="__PROJNAME__.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="__PROJNAME__"/>
       </Unit0>
     </Units>
   </ProjectOptions>
@@ -92,13 +96,20 @@
       </Debugging>
     </Linking>
     <Other>
-      <CompilerMessages>
-        <MsgFileName Value=""/>
-      </CompilerMessages>
       <CustomOptions Value="-dx86
--dFPC
--dWindows"/>
-      <CompilerPath Value="$(CompPath)"/>
+-dWindows
+-dFPC"/>
+      <OtherDefines Count="9">
+        <Define0 Value="x86"/>
+        <Define1 Value="x64"/>
+        <Define2 Value="Windows"/>
+        <Define3 Value="Linux"/>
+        <Define4 Value="Debug"/>
+        <Define5 Value="Release"/>
+        <Define6 Value="FPC"/>
+        <Define7 Value="Delphi"/>
+        <Define8 Value="PurePascal"/>
+      </OtherDefines>
     </Other>
   </CompilerOptions>
   <Debugging>
