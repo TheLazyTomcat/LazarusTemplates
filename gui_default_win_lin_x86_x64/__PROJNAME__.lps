@@ -3,21 +3,23 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="11"/>
-    <BuildModes Active="Devel_win_x86"/>
+    <BuildModes Active="Default_win_x86"/>
     <Units Count="2">
       <Unit0>
         <Filename Value="__PROJNAME__.lpr"/>
         <IsPartOfProject Value="True"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="__PROJNAME__.lpi"/>
+        <Filename Value="__MAINUNIT__.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="__MAINFORM__"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="XML"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
     </Units>
     <OtherDefines Count="9">

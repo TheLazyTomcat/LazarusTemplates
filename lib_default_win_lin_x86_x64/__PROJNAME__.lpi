@@ -17,7 +17,7 @@
     <i18n>
       <EnableI18N LFM="False"/>
     </i18n>
-    <BuildModes Count="2">
+    <BuildModes Count="4">
       <Item1 Name="Default_win_x86" Default="True"/>
       <Item2 Name="Default_win_x64">
         <CompilerOptions>
@@ -44,9 +44,98 @@
             <CustomOptions Value="-dx64
 -dWindows
 -dFPC"/>
+            <OtherDefines Count="9">
+              <Define0 Value="x86"/>
+              <Define1 Value="x64"/>
+              <Define2 Value="Windows"/>
+              <Define3 Value="Linux"/>
+              <Define4 Value="Debug"/>
+              <Define5 Value="Release"/>
+              <Define6 Value="FPC"/>
+              <Define7 Value="Delphi"/>
+              <Define8 Value="PurePascal"/>
+            </OtherDefines>
           </Other>
         </CompilerOptions>
       </Item2>
+      <Item3 Name="Default_lin_x86">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="lin_x86\__PROJNAME__"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="out_temp\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <RelocatableUnit Value="True"/>
+            <TargetCPU Value="i386"/>
+            <TargetOS Value="linux"/>
+          </CodeGeneration>
+          <Linking>
+            <Options>
+              <ExecutableType Value="Library"/>
+            </Options>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dx86
+-dLinux
+-dFPC"/>
+            <OtherDefines Count="9">
+              <Define0 Value="x86"/>
+              <Define1 Value="x64"/>
+              <Define2 Value="Windows"/>
+              <Define3 Value="Linux"/>
+              <Define4 Value="Debug"/>
+              <Define5 Value="Release"/>
+              <Define6 Value="FPC"/>
+              <Define7 Value="Delphi"/>
+              <Define8 Value="PurePascal"/>
+            </OtherDefines>
+          </Other>
+        </CompilerOptions>
+      </Item3>
+      <Item4 Name="Default_lin_x64">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="lin_x64\__PROJNAME__"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="out_temp\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <RelocatableUnit Value="True"/>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="linux"/>
+          </CodeGeneration>
+          <Linking>
+            <Options>
+              <ExecutableType Value="Library"/>
+            </Options>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dx64
+-dLinux
+-dFPC"/>
+            <OtherDefines Count="9">
+              <Define0 Value="x86"/>
+              <Define1 Value="x64"/>
+              <Define2 Value="Windows"/>
+              <Define3 Value="Linux"/>
+              <Define4 Value="Debug"/>
+              <Define5 Value="Release"/>
+              <Define6 Value="FPC"/>
+              <Define7 Value="Delphi"/>
+              <Define8 Value="PurePascal"/>
+            </OtherDefines>
+          </Other>
+        </CompilerOptions>
+      </Item4>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
